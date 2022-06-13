@@ -1,0 +1,26 @@
+.footer{
+    left: 150px;
+    bottom: 0;
+    height: 80px;
+    line-height: 80px;
+    border-top: 1px solid #DEDEDE;
+    width: 100%;
+    padding-left: 200px;
+}
+@media (min-width:1023px) {
+    .footer{
+        position:absolute;
+        padding-left: 50px;
+    }
+}
+@media (max-width: 760px) {
+    .footer {
+        padding-left: 200px;
+    }
+}
+@media (max-width: 480px) {
+    .footer {
+        text-align: center;
+        padding: 0;
+    }
+}
